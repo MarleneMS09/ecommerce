@@ -1,0 +1,13 @@
+*{
+    color: #ffff;
+}
+h1, h2{
+    color: #000; 
+}
+
+h1 span {
+    color: #037cb0;
+}
+h2 span {
+    color: green;
+}
