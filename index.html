@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    
     <title>Ecommerce</title>
 </head>
 
@@ -13,20 +16,26 @@
 
 
     <header>
-        <h1>Tienda <span> Muebles</span></h1>
+        <h1 class="nombre-sitio">Tienda <span> Muebles</span></h1>
     </header>
 
-    <nav>
-        <a href="index.html">Inicio</a>
+    <div class="contenedor-navegacion">
+    <nav class="nav-principal contenedor">
+        <a  href="index.html">Inicio</a>
         <a href="nosotros.html">Nosotros</a>
         <a href="tienda.html">Tienda</a>
         <a href="blog.html">Blog</a>
         <a href="galeria.html">Galería</a>
         <a href="contacto.html">Contacto</a>
     </nav>
+    </div>
 
-    <section>
+<div class="hero"></div>
+
+
+    <section class="contenedor">
         <h2>Categorías <span> de productos</span></h2>
+        <div class="listado-categorias">
         <div>
             <img src="img/categoria1.jpg" alt="Imagen Categoría" />
             <a href="#">Oficina</a>
@@ -39,11 +48,11 @@
             <img src="img/categoria3.jpg" alt="Imagen Categoría" />
             <a href="#">Cocina</a>
         </div>
-
+    </div>
     </section>
 
     <section>
-        <div>
+        <div class="sobre-nosotros">
             <h2>Sobre Nosotros</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quos vitae quas provident hic deserunt
                 ipsum voluptatum autem ratione cum ullam dolor, facilis, beatae quisquam facere necessitatibus quam! Id,
@@ -117,7 +126,7 @@
     <footer>
         <div>
            <h3>Categorías</h3> 
-           <nav>
+           <nav id="navegacion">
             <a href="#">Cocina</a>
             <a href="">Oficina</a>
             <a href="">Jardín</a>
@@ -127,7 +136,7 @@
         </div>
         <div>
             <h3>Sobre Nosotros</h3> 
-            <nav>
+            <nav class="navegacion">
                 <a href="#">Nuestra Historia</a>
                 <a href="">Misión, Visión y Valores</a>
                 <a href="">Carreras</a>
