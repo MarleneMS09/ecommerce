@@ -57,7 +57,10 @@ a {
     margin: 0 auto;
 }
 
-
+img {
+    max-width: 100%;
+    display: block;
+}
 
 /* Header y Navegación */
 .nombre-sitio {
@@ -77,6 +80,7 @@ a {
     padding: 20px 0 ;
     display:flex;
     justify-content:space-around;
+    font-size: 20px;
 }
 
 
@@ -109,7 +113,29 @@ a {
 */
 
 /* Categorías */
+
+
+
+
+.categorias h2 {
+    text-align: center;
+}
+
+.categoria a {
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.categoria a:hover {
+    background-color: rgb(35, 112, 184);
+    color: #ffff;
+    border-bottom-right-radius:10px;
+}
+
 .listado-categorias {
     display: grid;
-    
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
